@@ -1,4 +1,4 @@
-# Hourly scraping
+# Hourly scrape headlines
 name: HeadlineScraper
 
 # Controls when the action will run.
