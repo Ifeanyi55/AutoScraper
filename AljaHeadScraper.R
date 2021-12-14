@@ -12,4 +12,4 @@ links <- data.frame(
   headline_links = headlinks
 )
 
-write.csv(links,file = paste0("data/",Sys.Date(),"Headlinks",".csv"))
+write.csv(links,file = paste0("data/Headlinks.csv"))
