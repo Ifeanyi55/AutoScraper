@@ -34,5 +34,5 @@ jobs:
         git commit -am "GH ACTION Autorun $(date)"
         git push origin main
       env:
-        REPO_KEY: ${{ github.token}}
+        REPO_KEY: ${{ secrets.GITHUB_TOKEN }}
         username: github-actions
